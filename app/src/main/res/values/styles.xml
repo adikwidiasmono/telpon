@@ -6,6 +6,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Custom button style-->
+        <item name="android:buttonStyle">@style/custom_button</item>
+        <item name="android:colorControlHighlight">@color/c_yellow_dark</item>
+        <item name="android:colorButtonNormal">@color/c_yellow_light</item>
     </style>
 
     <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">

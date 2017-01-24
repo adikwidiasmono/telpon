@@ -2,10 +2,20 @@
 <resources>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Custom button style-->
+        <item name="android:buttonStyle">@style/custom_button</item>
+        <item name="android:colorControlHighlight">@color/c_yellow_dark</item>
+        <item name="android:colorButtonNormal">@color/c_yellow_light</item>
+    </style>
+
+    <style name="custom_button" parent="@android:style/Widget.Material.Button">
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/c_black</item>
     </style>
 </resources>
